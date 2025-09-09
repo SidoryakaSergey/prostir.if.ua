@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import prostirImg from '../assets/prostir.png';
 
 const Hero: React.FC = () => {
   return (
@@ -39,13 +40,11 @@ const Hero: React.FC = () => {
           </div>
           <div className="hero-image">
             <div className="hero-visual">
-              <div className="network-animation">
-                <div className="node"></div>
-                <div className="node"></div>
-                <div className="node"></div>
-                <div className="connection"></div>
-                <div className="connection"></div>
-              </div>
+              <img 
+                src={prostirImg} 
+                alt="Простір - інтернет провайдер" 
+                className="prostir-image"
+              />
             </div>
           </div>
         </div>
