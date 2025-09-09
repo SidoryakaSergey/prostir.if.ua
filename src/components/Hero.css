@@ -102,74 +102,10 @@
   align-items: center;
 }
 
-.hero-visual {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(44, 90, 160, 0.2);
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-.hero-visual:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 40px rgba(44, 90, 160, 0.3);
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(44, 90, 160, 0.1) 0%, transparent 60%);
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.left-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.connection-badge {
-  background: rgba(255, 255, 255, 0.9);
-  border: 2px solid var(--primary-color);
-  border-radius: 20px;
-  padding: 0.5rem 1rem;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 12px rgba(44, 90, 160, 0.2);
-}
-
-.connection-text {
-  color: var(--primary-color);
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.wifi-symbol {
-  font-size: 2rem;
-  color: var(--primary-color);
-  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8);
-  animation: pulse-wifi 2s infinite;
-}
-
-@keyframes pulse-wifi {
-  0%, 100% {
-    transform: scale(1);
-    opacity: 0.8;
-  }
-  50% {
-    transform: scale(1.1);
-    opacity: 1;
-  }
+.hero-empty-space {
+  width: 200px;
+  height: 200px;
+  /* Просто пустое место для баланса */
 }
 
 @media (max-width: 768px) {
@@ -208,26 +144,9 @@
     font-size: 1rem;
   }
   
-  .hero-visual {
-    width: 200px;
-    height: 200px;
-    border-radius: 12px;
-  }
-  
-  .wifi-symbol {
-    font-size: 1.5rem;
-  }
-  
-  .hero-overlay {
-    padding: 0.75rem;
-  }
-  
-  .connection-badge {
-    padding: 0.4rem 0.8rem;
-  }
-  
-  .connection-text {
-    font-size: 0.8rem;
+  .hero-empty-space {
+    width: 150px;
+    height: 150px;
   }
   
   .hero-actions {
@@ -274,33 +193,9 @@
     font-size: 0.9rem;
   }
   
-  .hero-visual {
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-  }
-  
-  .wifi-symbol {
-    font-size: 1.2rem;
-  }
-  
-  .hero-overlay {
-    padding: 0.5rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .left-content {
-    align-items: center;
-  }
-  
-  .connection-badge {
-    padding: 0.3rem 0.6rem;
-  }
-  
-  .connection-text {
-    font-size: 0.75rem;
+  .hero-empty-space {
+    width: 100px;
+    height: 100px;
   }
   
   .hero-actions {

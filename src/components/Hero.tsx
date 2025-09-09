@@ -1,6 +1,5 @@
 import React from 'react';
 import './Hero.css';
-import prostirImg from '../assets/prostir.png';
 
 const Hero: React.FC = () => {
   return (
@@ -39,18 +38,8 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="hero-image">
-            <div 
-              className="hero-visual"
-              style={{ backgroundImage: `url(${prostirImg})` }}
-            >
-              <div className="hero-overlay">
-                <div className="left-content">
-                  <div className="connection-badge">
-                    <span className="connection-text">Онлайн 24/7</span>
-                  </div>
-                </div>
-                <div className="wifi-symbol">📶</div>
-              </div>
+            <div className="hero-empty-space">
+              {/* Пустое место для баланса компоновки */}
             </div>
           </div>
         </div>
