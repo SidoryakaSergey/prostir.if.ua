@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thanatus.github.io/prostir.if.ua/sitemap.xml
+
+# Disallow crawling of unnecessary files
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: *.json
+Disallow: *.ts
+Disallow: *.tsx
