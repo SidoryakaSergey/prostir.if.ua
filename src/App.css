@@ -1,0 +1,18 @@
+.App {
+  text-align: left;
+}
+
+/* Основные переменные цветов в стиле shtorm.net */
+:root {
+  --primary-color: #2c5aa0;
+  --secondary-color: #1e40af;
+  --accent-color: #f59e0b;
+  --text-color: #1f2937;
+  --light-bg: #f8fafc;
+  --white: #ffffff;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+}
