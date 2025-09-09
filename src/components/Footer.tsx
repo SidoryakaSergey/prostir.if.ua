@@ -10,7 +10,6 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <img src={logoImg} alt="Простір" className="logo-img" />
-              <span className="logo-text">Простір</span>
             </div>
             <p className="footer-description">
               Надійний інтернет-провайдер в м. Снятин та навколишніх селах. 

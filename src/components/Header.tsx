@@ -19,7 +19,6 @@ const Header: React.FC = () => {
         <div className="header-content">
           <div className="logo">
             <img src={logoImg} alt="Простір" className="logo-img" />
-            <span className="logo-text">Простір</span>
           </div>
           
           {/* Desktop Navigation */}
