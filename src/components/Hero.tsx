@@ -39,12 +39,18 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="hero-image">
-            <div className="hero-visual">
-              <img 
-                src={prostirImg} 
-                alt="Простір - інтернет провайдер" 
-                className="prostir-image"
-              />
+            <div 
+              className="hero-visual"
+              style={{ backgroundImage: `url(${prostirImg})` }}
+            >
+              <div className="hero-overlay">
+                <div className="left-content">
+                  <div className="connection-badge">
+                    <span className="connection-text">Онлайн 24/7</span>
+                  </div>
+                </div>
+                <div className="wifi-symbol">📶</div>
+              </div>
             </div>
           </div>
         </div>
