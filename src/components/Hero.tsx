@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import PhoneContacts from './PhoneContacts';
 
 const Hero: React.FC = () => {
   return (
@@ -36,6 +37,8 @@ const Hero: React.FC = () => {
                 Зв'язатись з нами
               </a>
             </div>
+            
+            <PhoneContacts />
           </div>
           <div className="hero-image">
             <div className="hero-visual">

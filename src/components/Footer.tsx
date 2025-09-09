@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <img src="/logo.png" alt="Простір" className="logo-img" />
+              <img src="/logo.jpg" alt="Простір" className="logo-img" />
               <span className="logo-text">Простір</span>
             </div>
             <p className="footer-description">
@@ -51,7 +51,20 @@ const Footer: React.FC = () => {
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
-                <span>+380 XX XXX XX XX</span>
+                <div className="phones-group">
+                  <div className="phone-line">
+                    <span className="kyivstar-icon">📱</span>
+                    <span>097 921 65 22 (Kyivstar)</span>
+                  </div>
+                  <div className="phone-line">
+                    <span className="kyivstar-icon">📱</span>
+                    <span>097 812 80 28 (Kyivstar)</span>
+                  </div>
+                  <div className="phone-line">
+                    <span className="vodafone-icon">📞</span>
+                    <span>099 495 15 35 (Vodafone)</span>
+                  </div>
+                </div>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
