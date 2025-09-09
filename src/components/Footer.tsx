@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import logoImg from '../assets/logo.jpg';
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <img src="/logo.jpg" alt="Простір" className="logo-img" />
+              <img src={logoImg} alt="Простір" className="logo-img" />
               <span className="logo-text">Простір</span>
             </div>
             <p className="footer-description">

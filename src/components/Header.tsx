@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import logoImg from '../assets/logo.jpg';
 
 const Header: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <img src="/logo.jpg" alt="Простір" className="logo-img" />
+            <img src={logoImg} alt="Простір" className="logo-img" />
             <span className="logo-text">Простір</span>
           </div>
           

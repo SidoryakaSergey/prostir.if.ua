@@ -1,0 +1,112 @@
+.contact-bar {
+  background: var(--gray-800);
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.contact-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.working-hours {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #d1d5db;
+}
+
+.hours-icon {
+  font-size: 1rem;
+}
+
+.phones-bar {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.phone-link {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.phone-link:hover {
+  background: var(--operator-color, var(--primary-color));
+  transform: translateY(-1px);
+  color: white;
+}
+
+.phone-icon {
+  font-size: 0.9rem;
+}
+
+.phone-number {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.email-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #d1d5db;
+}
+
+.email-icon {
+  font-size: 1rem;
+}
+
+/* Специальные цвета для операторов */
+.phone-link:nth-child(1):hover {
+  background: #FFD700;
+  color: #333;
+}
+
+.phone-link:nth-child(2):hover {
+  background: #FFD700;
+  color: #333;
+}
+
+.phone-link:nth-child(3):hover {
+  background: #E60012;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .contact-bar-content {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .phones-bar {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .phone-link {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+  }
+  
+  .working-hours,
+  .email-contact {
+    font-size: 0.75rem;
+  }
+}
