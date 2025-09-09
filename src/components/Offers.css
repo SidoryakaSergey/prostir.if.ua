@@ -180,6 +180,18 @@
 }
 
 @media (max-width: 768px) {
+  .offers {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+  
   .offers-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -189,7 +201,62 @@
     padding: 2rem 1.5rem 1.5rem;
   }
   
+  .offer-title {
+    font-size: 1.3rem;
+  }
+  
+  .offer-subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .offer-description {
+    font-size: 0.95rem;
+  }
+  
   .offers-notice {
     padding: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .notice-content h4 {
+    font-size: 1.1rem;
+  }
+  
+  .notice-content p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .offers {
+    padding: 2rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .offer-content {
+    padding: 1.5rem 1rem;
+  }
+  
+  .offer-title {
+    font-size: 1.2rem;
+  }
+  
+  .offer-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .offer-description {
+    font-size: 0.9rem;
+  }
+  
+  .badge-text {
+    font-size: 1.3rem;
+  }
+  
+  .offers-notice {
+    padding: 1.25rem;
   }
 }
