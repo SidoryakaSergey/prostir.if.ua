@@ -8,10 +8,6 @@ const ContactBar: React.FC = () => {
     { number: '099 495 15 35', operator: 'Vodafone', color: '#E60012' }
   ];
 
-  const handleCall = (number: string) => {
-    window.open(`tel:+38${number.replace(/\s/g, '')}`, '_self');
-  };
-
   return (
     <div className="contact-bar">
       <div className="container">
